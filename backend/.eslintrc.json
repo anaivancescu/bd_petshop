@@ -1,0 +1,15 @@
+{
+    "extends": "airbnb",
+    "globals": {
+      "document": true,
+      "window": true
+    },
+    "rules": {
+      "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],
+      "no-restricted-syntax": "off",
+      "react/prop-types": [2, { "ignore": ["children"] }]
+    },
+    "env": {
+      "jest": true
+    }
+  }
